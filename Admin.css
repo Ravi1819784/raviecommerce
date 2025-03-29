@@ -1,0 +1,16 @@
+.admin-main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.admin-main input{
+    border: 1px solid black;
+}
+button{
+    border: 1px solid black;
+}

@@ -1,0 +1,30 @@
+.main-profile{
+    width: 30%;
+    height: 100vh;
+    border: 1px solid gray;
+    float: right;
+    background-color: rgb(36, 35, 35);
+    margin-top: 80px;
+    
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+
+
+  
+.profile ul{
+    list-style: none;
+}
+.profile ul li{
+    padding-block: 10px;
+    color: white;
+}
+.profile ul li a{
+    text-decoration: none;
+}
