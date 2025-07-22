@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import "./SignUp.css";
-const SignUp = () => {
+const Buy = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -19,7 +19,8 @@ const SignUp = () => {
     result = await result.json();
     console.log(result);
     localStorage.setItem("user", JSON.stringify(result));
-    navigate("/");
+    navigate("/login");
+        alert("form submit successfully")
   };
 
   return (
@@ -64,4 +65,5 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default Buy;
+

@@ -1,0 +1,30 @@
+.main-about{
+    width: 100%;
+margin-top: 70px;
+}
+.main-about h2{
+    font-size: 1.65rem;
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(0, 119, 255);
+}
+.line{
+    height: 3px;
+    width: 200px;
+    background-color: rgb(218, 43, 124);
+}
+.p1{
+    margin-inline: 100px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.why-choose{
+    margin-inline: 100px;
+}
+.why-choose h3{
+    font-size: 1.4rem;
+}
+.why-choose ul li{
+    font-size: 1rem;
+    padding-block: 2px;
+}

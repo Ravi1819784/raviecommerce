@@ -6,7 +6,7 @@
     .main-signup-container{
         width: 100%;
         background:linear-gradient(rgb(103, 44, 240),rgb(238, 105, 243));
-        height: 100vh;
+        height: 105vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -59,6 +59,11 @@
         display: flex;
         gap: 10px;
     }
+
+     .btn a{
+        color: white;
+          text-decoration: none;
+     }
     p a{
         color: rgb(45, 45, 46);
     }

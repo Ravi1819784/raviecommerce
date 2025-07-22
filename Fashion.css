@@ -1,30 +1,64 @@
-.main-fashion{
+/* .main-gadget{
     max-width: 1440px;
-    width: 90%;
+    width: 95%;
     height: 90vh;
     margin-inline: auto;
     margin-top: 80px;
 }
-.fashion{
+.gadget{
     width: 100%;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border: 1px solid rgb(15, 15, 13);
+    border: 1px solid rgb(235, 235, 233);
 }
-.filter-fashion-item{
-    width: 29%;
+.filter-gadget-item{
+    width: 19%;
     height: 90vh;
-    border: 1px solid red;
+    border: 1px solid rgb(235, 234, 234);
 }
-.fashion-product-list{
+.gadget-product-list{
 overflow-y: scroll;
-width: 70%;
+width: 80%;
 height: 90vh;
-border: 1px solid blue;
+
 }
-.fashion-product-list::-webkit-scrollbar{
+.gadget-product-list::-webkit-scrollbar{
     display: none;
 }
+.product-filter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 13px;
+    align-items: center;
+    margin-top: 20px;
+}
+.filter h3{
+font-size: 1rem;
+    padding: 5px 8px;
+    background-color: rgb(145, 142, 142);
+    color: white;
+    border-radius: 5px;
+}
+.check{
+    display: flex;
+    gap: 10px;
+}
+
+.fashion-heading{
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    color: rgb(43, 42, 42);
+
+   
+}
+.ratings{
+    color: goldenrod;
+}  */

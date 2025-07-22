@@ -45,5 +45,10 @@
         border: none;
         border-radius: 5px;
         outline: none;
-        color: white;
+        
     }
+
+        .form button a{
+            color: white;
+            text-decoration: none;
+        }
